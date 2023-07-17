@@ -13,21 +13,24 @@ html, body {
     margin-right: 2.5rem;
     font-weight: 400;
     color: #424242;
+    font-size: 1rem;
 }
 .navitem1{
     margin-left: 8rem;
     margin-right: 1rem;
     font-weight: 400;
     color: #424242;
+    font-size: 1rem;
 }
 .navitem2{
     margin-left: 1rem;
     font-weight: 400;
     color: #424242;
+    font-size: 1rem;
 }
 .logo{
     margin-left: 10rem;
-    margin-right: 1.25rem;
+    margin-right: 2rem;
     width: 14.375rem;
     height: 3.75rem;
 }

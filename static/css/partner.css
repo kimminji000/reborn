@@ -1,0 +1,58 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.subnav{
+    height: 3%;
+    display: flex;
+    align-items: center;
+    border-bottom: #424242;
+    padding-left: 25rem;
+    padding-bottom: 0.5rem;
+    border-bottom: black solid 1px;
+}
+.subnavitem{
+    font-size: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-weight: 400;
+    color: #424242;
+}
+.container{
+    margin: 3rem auto;
+    width: 76rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.partner{
+    display: inline-block;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 2rem;
+}
+.photo{
+    width: 16rem;
+    height: 20.5rem;
+    border-radius: 1.875rem;
+    display: block;
+}
+.name{
+    font-size: 1rem;
+    font-weight: 600;
+    display: inline-block;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+.job{
+    font-size: 0.875rem;
+    font-weight: 500;
+    display: inline-block;
+}
+.explain{
+    font-size: 1rem;
+    font-weight: 500;
+    width: 15rem;
+    margin: 0.5rem auto;
+}

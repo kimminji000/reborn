@@ -10,9 +10,9 @@
 </head>
 <body>
     <div class="nav">
-        <img class="logo" src="{% static 'img/로고.png' %}">
+        <a href="{% url 'main' %}"><img class="logo" src="{% static 'img/로고.png' %}"></a>
         <div class="navitem">소개</div>
-        <div class="navitem">건강파트너</div>
+        <a href="{% url 'partner' %}" class="navitem">건강파트너</a>
         <div class="navitem">건강상품</div>
         <div class="navitem">건강지식</div>
         <div class="navitem">커뮤니티</div>

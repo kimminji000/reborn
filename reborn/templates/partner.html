@@ -1,0 +1,32 @@
+{% extends 'nav.html' %}
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/partner.css' %}">
+    <title>Document</title>
+</head>
+<body>
+    <div class="subnav">
+        <div class="subnavitem">근력운동</div>
+        <div class="subnavitem">체형관리</div>
+        <div class="subnavitem">재활운동</div>
+        <div class="subnavitem">식단관리</div>
+    </div>
+    <div class="container">
+        {% for partner in partners.all %}
+        <div class="partner">
+            <img src="{{ partner.img.url }}" class="photo">
+            <div class="name">{{ partner.name }}</div>
+            <div class="job">{{ partner.name }}</div>
+            <div class="explain">{{ partner.explain }}</div>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
+{% endblock %}
