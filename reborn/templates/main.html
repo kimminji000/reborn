@@ -1,4 +1,6 @@
+{% extends 'nav.html' %}
 {% load static %}
+{% block content %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,17 +11,7 @@
     <title>RE:BORN</title>
 </head>
 <body>
-    <div class="nav">
-        <img class="logo" src="{% static 'img/로고.png' %}">
-        <div class="navitem">소개</div>
-        <div class="navitem">건강파트너</div>
-        <div class="navitem">건강상품</div>
-        <div class="navitem">건강지식</div>
-        <div class="navitem">커뮤니티</div>
-        <div class="navitem1">로그인</div>
-        <div class="navitem3">|</div>
-        <div class="navitem2">회원가입</div>
-    </div>
+    
     <div class="page1">
         <img class="mainimg" src="{% static 'img/image01.png' %}" width="500px" height="500px">
         <div class="font1">우리는 끊임없이 배우고 싶습니다.<br>RE:BORN이 여러분과 함께 하겠습니다.</div>
@@ -41,3 +33,4 @@
     </div>
 </body>
 </html>
+{% endblock %}
